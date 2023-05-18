@@ -19,12 +19,12 @@ public class LoginStep extends BaseTest {
     private HomePage homePage;
 
     @Before
-    public void initialisation(){
+    public void setUp(){
         init();
     }
 
     @After
-    public void teardown(){
+    public void tearDown(){
         exit();
     }
 

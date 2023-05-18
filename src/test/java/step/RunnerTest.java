@@ -11,9 +11,6 @@ import io.cucumber.junit.CucumberOptions;
         glue = {"step"},
         plugin = {"pretty"},
         publish = true,
-        dryRun = true,
         snippets = CucumberOptions.SnippetType.CAMELCASE
 )
-public class RunnerTest  {
-
-}
+public class RunnerTest  {}

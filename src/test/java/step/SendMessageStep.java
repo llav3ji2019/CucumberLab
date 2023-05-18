@@ -23,12 +23,12 @@ public class SendMessageStep extends BaseTest {
     ChatPage chatPage;
 
     @Before
-    public void initialisation(){
+    public void setUp(){
         init();
     }
 
     @After
-    public void teardown(){
+    public void tearDown(){
         exit();
     }
 
